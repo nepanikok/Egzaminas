@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Text">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="116dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="279dp"
+        android:layout_marginBottom="8dp"
+        android:text="Back"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="376dp"
+        android:layout_height="532dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="13dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis leo eget tellus sollicitudin eleifend. Duis pellentesque nunc eu tincidunt aliquet. Ut eget odio ipsum. Nam sit amet ornare nibh. Aenean tortor neque, rutrum ut posuere vel, congue et nunc. Etiam sodales sem nec lacus malesuada, gravida consequat risus hendrerit. Maecenas volutpat egestas magna, id lobortis risus feugiat sit amet. Integer ac libero a augue malesuada posuere sed non neque. Nullam aliquet nulla consectetur, pretium risus quis, cursus nibh. Morbi sollicitudin malesuada lectus, sit amet luctus dolor ultricies in. Praesent vestibulum nunc quis mauris molestie fermentum. Morbi dapibus nunc turpis. Etiam ultricies purus non nulla varius maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur posuere lectus sem, ac mattis enim condimentum a. Donec hendrerit tortor nunc, non congue odio fringilla congue. Nulla ultricies non sapien quis suscipit. Nulla vestibulum odio sit amet pharetra cursus. Suspendisse potenti. Maecenas egestas, magna quis lacinia luctus, sem purus sagittis risus, non egestas sapien purus sed eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ultricies erat nec lorem tincidunt congue. Sed mollis vehicula scelerisque. Suspendisse vitae velit erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque laoreet justo a arcu posuere, id maximus justo egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin quam lorem, volutpat a gravida sit amet, porta in lorem.  In hac habitasse platea dictumst. Nullam vestibulum ex nunc, nec sodales sem tincidunt ut. Cras consectetur tincidunt dui."
+        app:layout_constraintBottom_toTopOf="@+id/link"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_button" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="41dp"
+        android:text="kolegija.lt"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

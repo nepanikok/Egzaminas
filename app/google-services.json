@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "823763127583",
+    "firebase_url": "https://vvstock-vvk-default-rtdb.firebaseio.com",
+    "project_id": "vvstock-vvk",
+    "storage_bucket": "vvstock-vvk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823763127583:android:d721d554df78f94a85342a",
+        "android_client_info": {
+          "package_name": "com.example.egzaminas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCaKH8h4lC5mUhAQ4DtxruYRISdyDK0dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823763127583:android:70772d6da9216fbe85342a",
+        "android_client_info": {
+          "package_name": "com.example.vvstock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCaKH8h4lC5mUhAQ4DtxruYRISdyDK0dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
